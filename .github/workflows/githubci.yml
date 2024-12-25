@@ -1,0 +1,11 @@
+name: App Workflow
+
+on: [push, pull_request]
+
+jobs:
+  call-reusable-workflow:
+    uses: ./.github/workflows/workflow-template.yml
+    with:
+      node-version: '14'
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
