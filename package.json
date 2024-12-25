@@ -1,12 +1,14 @@
 {
-  "name": "gh-reuse-module",
+  "name": "calculator-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple calculator project with tests",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
