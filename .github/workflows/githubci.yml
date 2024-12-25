@@ -9,3 +9,7 @@ jobs:
       node-version: '14'
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
+
+  show-metadata:
+    uses https://github.com/sirivo/first-project/blob/main/.github/workflows/metadata.yml@mmain
+
