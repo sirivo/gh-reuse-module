@@ -11,5 +11,5 @@ jobs:
       token: ${{ secrets.GITHUB_TOKEN }}
 
   show-metadata:
-    uses sirivo/first-project/blob/main/.github/workflows/metadata.yml@mmain
+    uses sirivo/first-project/.github/workflows/metadata.yml@mmain
 
